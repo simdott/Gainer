@@ -23,13 +23,13 @@ Simple stereo volume control plugin. Input mapping : 0% = mute, 100% = 0 dB, 200
 
 ### Installation by distribution
 
-**Debian/Ubuntu :**
+**Debian/Ubuntu** :
 sudo apt-get install build-essential lv2-dev
 
-**Fedora :**
+**Fedora** :
 sudo dnf install gcc lv2-devel
 
-**Arch :**
+**Arch** :
 sudo pacman -S base-devel lv2
 
 ## Build and Install
@@ -56,7 +56,11 @@ Should show : `urn:simdott:gainer`
 
 ## Usage
 
-Load in any LV2-compatible host (Ardour, Carla, Reaper, etc.). Connect stereo inputs/outputs. Volume control ranges from mute (-inf dB) to +6 dB with 0 dB at center position.
+**Interface** : this plugin has no custom graphical interface. It uses your host's standard control UI (slider, knob, or numerical entry).
+
+Load in any LV2-compatible host (Ardour, Carla, Reaper, etc.). Connect stereo inputs/outputs. 
+
+Volume control ranges from mute (-inf dB) to +6 dB with 0 dB at center position.
 
 ## Files
 
