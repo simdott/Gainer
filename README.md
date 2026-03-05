@@ -81,7 +81,7 @@ Volume control ranges from mute (-inf dB) to +6 dB with 0 dB at center position.
    Or uninstall system-wide :
    sudo ./uninstall.sh
    
-### v1.0.0 (2025-02-27)
+### v1.0.0 (2026-02-27)
 
 - Initial release   
 
